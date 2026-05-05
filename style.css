@@ -339,44 +339,29 @@ a {
     height: 200px;
 }
 
-/* موبايل فقط */
 @media (max-width: 768px) {
 
-    /* العناصر تبقى تحت بعض */
-    .top-left,
-    .top-mid,
-    .top-right,
-    #bot-left,
-    #bot-right,
-    .card,
-    .page5 div {
-        width: 90%;
-        display: block;
+    .container {
+        display: block; /* مهم */
+        padding: 10px;
+    }
+
+    .container div {
+        width: 95%;
         margin: 15px auto;
     }
 
-    /* الجريد يقل */
-    .container {
-        grid-template-columns: repeat(2, 1fr);
+    .container img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
     }
 
-    .gallery {
-        grid-template-columns: 1fr;
+    p {
+        font-size: 15px;
     }
 
-    .page4 {
-        grid-template-columns: 1fr;
-        width: 90%;
-    }
-
-    /* الصور تبقى مرنة */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* النص */
-    .informations {
-        width: 90%;
+    h1 {
+        font-size: 22px;
     }
 }
