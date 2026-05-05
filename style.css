@@ -341,13 +341,19 @@ a {
 
 @media (max-width: 768px) {
 
-    .card {
-        display: block !important;
-        width: 90% !important;
-        margin: 20px auto !important;
+    /* الصفحة اللي في الصورة */
+    .page4 {
+        display: block !important;   /* بدل grid */
+        width: 100% !important;
+        padding: 10px;
     }
 
-    .card img {
+    .page4 div {
+        width: 95% !important;
+        margin: 15px auto !important;
+    }
+
+    .page4 img {
         width: 100%;
         height: 200px;
         object-fit: cover;
