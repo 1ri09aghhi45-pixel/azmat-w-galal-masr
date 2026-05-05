@@ -340,18 +340,10 @@ a {
 }
 
 @media (max-width: 768px) {
-
-    .page4 {
-        display: grid !important;
-        grid-template-columns: 1fr !important; /* عنصر واحد */
-        width: 95% !important;
-        margin: auto;
+    body {
+        background: blue !important;
     }
-
-    .page4 div {
-        width: 100%;
-        margin: 10px 0;
-    }
+}
 
     .page4 img {
         width: 100%;
