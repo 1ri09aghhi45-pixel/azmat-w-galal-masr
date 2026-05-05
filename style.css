@@ -340,10 +340,7 @@ a {
 }
 
 @media (max-width: 768px) {
-    body {
-        background: blue !important;
-    }
-}
+
 
     .page4 img {
         width: 100%;
