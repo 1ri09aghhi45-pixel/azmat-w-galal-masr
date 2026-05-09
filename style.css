@@ -357,14 +357,26 @@ a {
 
     /* الجريد يقل */
     .container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        width: 90%;
     }
 
     .gallery {
         grid-template-columns: 1fr;
+        width: 90%;
     }
 
     .page4 {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .page5 {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .card {
         grid-template-columns: 1fr;
         width: 90%;
     }
